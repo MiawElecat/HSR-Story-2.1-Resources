@@ -6,28 +6,13 @@
         {
           "$type": "RPG.GameCore.LevelPerformanceInitialize",
           "PerformanceType": "D",
-          "AreaPrefabPath": "Story/Discussion/Mission/1031501/DS103150112.prefab",
-          "CreateCharacterList": [
-            {
-              "CharacterUniqueName": "PlayerBoy_00_C00",
-              "AvatarID": "NPC_Avatar_Lad_PlayerBoy_00",
-              "AreaName": "DS103150112.prefab"
-            },
-            {
-              "CharacterUniqueName": "W3_Lady_25_C00",
-              "AvatarID": "NPC_W3_Lady_25",
-              "AreaName": "DS103150112.prefab"
-            },
-            {
-              "CharacterUniqueName": "PlayerGirl_00_C00",
-              "AvatarID": "NPC_Avatar_Miss_PlayerGirl_00",
-              "AreaName": "DS103150112.prefab"
-            }
-          ],
+          "AreaPrefabPath": "Story/Discussion/Mission/8022121/DS802212101.prefab",
+          "CreateCharacterList": [],
           "CaptureNPCList": [],
           "HideNPC": true,
           "EntityVisiableList": [],
           "HideProp": true,
+          "PropVisiableList": [],
           "HideLocalPlayer": true,
           "StreamingSourcesInBlackMask": [],
           "StreamingSourcesAfterBlackMask": [],
@@ -35,14 +20,33 @@
         },
         {
           "$type": "RPG.GameCore.PlayTimeline",
-          "TimelineName": "Story/Discussion/Mission/1031501/DS10315011201.playable",
+          "TimelineName": "Story/Discussion/Mission/8022121/DS80221210101.playable",
           "Type": "Discussion"
         },
         {
-          "$type": "RPG.GameCore.TriggerCustomString",
+          "$type": "RPG.GameCore.PlayOptionTalk",
+          "OptionList": [
+            {
+              "TalkSentenceID": 802213144,
+              "OptionIconType": "ChatContinueIcon",
+              "TriggerCustomString": "TalkSentence_802213145"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.WaitCustomString",
           "CustomString": {
-            "Value": "HeartDial_D_103150112"
+            "Value": "TalkSentence_802213145"
           }
+        },
+        {
+          "$type": "RPG.GameCore.PlayTimeline",
+          "TimelineName": "Story/Discussion/Mission/8022121/DS80221210102.playable",
+          "Type": "Discussion"
         },
         {
           "$type": "RPG.GameCore.EndPerformance"

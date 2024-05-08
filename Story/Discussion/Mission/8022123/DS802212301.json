@@ -6,28 +6,29 @@
         {
           "$type": "RPG.GameCore.LevelPerformanceInitialize",
           "PerformanceType": "D",
-          "AreaPrefabPath": "Story/Discussion/Mission/1031501/DS103150112.prefab",
+          "AreaPrefabPath": "Story/Discussion/Mission/8022123/DS802212301.prefab",
           "CreateCharacterList": [
             {
               "CharacterUniqueName": "PlayerBoy_00_C00",
               "AvatarID": "NPC_Avatar_Lad_PlayerBoy_00",
-              "AreaName": "DS103150112.prefab"
+              "AreaName": "DS802212301.prefab"
             },
             {
-              "CharacterUniqueName": "W3_Lady_25_C00",
-              "AvatarID": "NPC_W3_Lady_25",
-              "AreaName": "DS103150112.prefab"
+              "CharacterUniqueName": "ClockBoy_00_C00",
+              "AvatarID": "NPC_Special_ClockBoy_00",
+              "AreaName": "DS802212301.prefab"
             },
             {
               "CharacterUniqueName": "PlayerGirl_00_C00",
               "AvatarID": "NPC_Avatar_Miss_PlayerGirl_00",
-              "AreaName": "DS103150112.prefab"
+              "AreaName": "DS802212301.prefab"
             }
           ],
           "CaptureNPCList": [],
           "HideNPC": true,
           "EntityVisiableList": [],
           "HideProp": true,
+          "PropVisiableList": [],
           "HideLocalPlayer": true,
           "StreamingSourcesInBlackMask": [],
           "StreamingSourcesAfterBlackMask": [],
@@ -35,14 +36,9 @@
         },
         {
           "$type": "RPG.GameCore.PlayTimeline",
-          "TimelineName": "Story/Discussion/Mission/1031501/DS10315011201.playable",
-          "Type": "Discussion"
-        },
-        {
-          "$type": "RPG.GameCore.TriggerCustomString",
-          "CustomString": {
-            "Value": "HeartDial_D_103150112"
-          }
+          "TimelineName": "Story/Discussion/Mission/8022123/DS80221230101.playable",
+          "Type": "Discussion",
+          "Parameters": []
         },
         {
           "$type": "RPG.GameCore.EndPerformance"

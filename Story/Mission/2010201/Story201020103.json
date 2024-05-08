@@ -5,44 +5,40 @@
       "TaskList": [
         {
           "$type": "RPG.GameCore.LevelPerformanceInitialize",
-          "PerformanceType": "D",
-          "AreaPrefabPath": "Story/Discussion/Mission/1031501/DS103150112.prefab",
+          "PerformanceType": "C",
+          "AreaPrefabPath": "Story/Mission/2010201/Story201020103.prefab",
           "CreateCharacterList": [
-            {
-              "CharacterUniqueName": "PlayerBoy_00_C00",
-              "AvatarID": "NPC_Avatar_Lad_PlayerBoy_00",
-              "AreaName": "DS103150112.prefab"
-            },
-            {
-              "CharacterUniqueName": "W3_Lady_25_C00",
-              "AvatarID": "NPC_W3_Lady_25",
-              "AreaName": "DS103150112.prefab"
-            },
             {
               "CharacterUniqueName": "PlayerGirl_00_C00",
               "AvatarID": "NPC_Avatar_Miss_PlayerGirl_00",
-              "AreaName": "DS103150112.prefab"
+              "AreaName": "Story201020103.prefab"
+            },
+            {
+              "CharacterUniqueName": "PlayerBoy_00_C00",
+              "AvatarID": "NPC_Avatar_Lad_PlayerBoy_00",
+              "AreaName": "Story201020103.prefab"
+            },
+            {
+              "CharacterUniqueName": "Mar_7th_00_C00",
+              "AvatarID": "NPC_Avatar_Maid_Mar_7th_00",
+              "AreaName": "Story201020103.prefab"
+            },
+            {
+              "CharacterUniqueName": "Himeko_00_C00",
+              "AvatarID": "NPC_Avatar_Lady_Himeko_00",
+              "AreaName": "Story201020103.prefab"
             }
           ],
           "CaptureNPCList": [],
-          "HideNPC": true,
           "EntityVisiableList": [],
-          "HideProp": true,
-          "HideLocalPlayer": true,
           "StreamingSourcesInBlackMask": [],
           "StreamingSourcesAfterBlackMask": [],
           "MarkStreamingItems": []
         },
         {
           "$type": "RPG.GameCore.PlayTimeline",
-          "TimelineName": "Story/Discussion/Mission/1031501/DS10315011201.playable",
-          "Type": "Discussion"
-        },
-        {
-          "$type": "RPG.GameCore.TriggerCustomString",
-          "CustomString": {
-            "Value": "HeartDial_D_103150112"
-          }
+          "TimelineName": "Story/Mission/2010201/Story20102010301.playable",
+          "Type": "Story"
         },
         {
           "$type": "RPG.GameCore.EndPerformance"
@@ -59,6 +55,5 @@
         }
       ]
     }
-  ],
-  "Type": "PerformanceD"
+  ]
 }

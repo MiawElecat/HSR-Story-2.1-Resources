@@ -6,22 +6,28 @@
         {
           "$type": "RPG.GameCore.LevelPerformanceInitialize",
           "PerformanceType": "D",
-          "AreaPrefabPath": "Story/Discussion/Mission/1031501/DS103150110.prefab",
+          "AreaPrefabPath": "Story/Discussion/Mission/8022401/DS802240065.prefab",
           "CreateCharacterList": [
-            {
-              "CharacterUniqueName": "PlayerBoy_00_C00",
-              "AvatarID": "NPC_Avatar_Lad_PlayerBoy_00",
-              "AreaName": "DS103150110.prefab"
-            },
-            {
-              "CharacterUniqueName": "W3_Lady_25_C00",
-              "AvatarID": "NPC_W3_Lady_25",
-              "AreaName": "DS103150110.prefab"
-            },
             {
               "CharacterUniqueName": "PlayerGirl_00_C00",
               "AvatarID": "NPC_Avatar_Miss_PlayerGirl_00",
-              "AreaName": "DS103150110.prefab"
+              "AreaName": "DS802240065.prefab"
+            },
+            {
+              "CharacterUniqueName": "W3_Male_27_C00",
+              "AvatarID": "NPC_W3_Male_27",
+              "AreaName": "DS802240065.prefab"
+            },
+            {
+              "CharacterUniqueName": "Firefly_00_C00",
+              "AvatarID": "NPC_Avatar_Maid_Firefly_00",
+              "AreaName": "DS802240065.prefab",
+              "OverrideReplaceMaterialKey": "Firefly_00_Phantom"
+            },
+            {
+              "CharacterUniqueName": "PlayerBoy_00_C00",
+              "AvatarID": "NPC_Avatar_Lad_PlayerBoy_00",
+              "AreaName": "DS802240065.prefab"
             }
           ],
           "CaptureNPCList": [],
@@ -36,15 +42,13 @@
         },
         {
           "$type": "RPG.GameCore.PlayTimeline",
-          "TimelineName": "Story/Discussion/Mission/1031501/DS10315011001.playable",
+          "TimelineName": "Story/Discussion/Mission/8022401/DS80224006501.playable",
           "Type": "Discussion",
           "Parameters": []
         },
         {
-          "$type": "RPG.GameCore.TriggerCustomString",
-          "CustomString": {
-            "Value": "HeartDial_D_103150110"
-          }
+          "$type": "RPG.GameCore.PerformanceExtendEndBlack",
+          "ExtendTime": 1
         },
         {
           "$type": "RPG.GameCore.EndPerformance"
